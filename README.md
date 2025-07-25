@@ -5,8 +5,7 @@ A simple React app that helps users set and manage personal savings goals. Users
 
 ## 🚀 Technologies Used
 
-- React (create-react-app)
-- React Router DOM for future routing support
+- React (create vite@latest)
 - JSON Server as a mock backend API
 - JavaScript 
 - CSS for styling
