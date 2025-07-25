@@ -1,0 +1,130 @@
+{
+  "goals": [
+    {
+      "id": "2",
+      "name": "Emergency Fund",
+      "targetAmount": 2000000,
+      "savedAmount": 150800,
+      "category": "Savings",
+      "deadline": "2025-10-01",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "4",
+      "name": "Wedding Savings",
+      "targetAmount": 100000,
+      "savedAmount": 35000,
+      "category": "Event",
+      "deadline": "2026-06-30",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "6",
+      "name": "House Renovation",
+      "targetAmount": 1500000,
+      "savedAmount": 700000,
+      "category": "Home",
+      "deadline": "2025-12-15",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "7",
+      "name": "New Phone",
+      "targetAmount": 120000,
+      "savedAmount": 60000,
+      "category": "Gadgets",
+      "deadline": "2025-08-05",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "8",
+      "name": "School Fees",
+      "targetAmount": 70000,
+      "savedAmount": 15000,
+      "category": "Education",
+      "deadline": "2025-09-01",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "9",
+      "name": "Christmas Gifts",
+      "targetAmount": 1200,
+      "savedAmount": 300,
+      "category": "Holiday",
+      "deadline": "2025-12-20",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "10",
+      "name": "Business Capital",
+      "targetAmount": 200000,
+      "savedAmount": 100000,
+      "category": "Investment",
+      "deadline": "2026-03-01",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "70a9",
+      "name": "Buy a designer Perfume",
+      "targetAmount": 20000,
+      "savedAmount": 10000,
+      "category": "Luxury",
+      "deadline": "2025-07-31",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "359f",
+      "name": "Buy Sambas",
+      "targetAmount": "3500",
+      "savedAmount": 500,
+      "category": "shoes",
+      "deadline": "2025-08-20",
+      "createdAt": "2025-07-20"
+    },
+    {
+      "id": "3307",
+      "name": "Girlies Trip",
+      "targetAmount": 20000,
+      "savedAmount": 5000,
+      "category": "Vacation",
+      "deadline": "2025-08-31",
+      "createdAt": "2025-07-20T14:56:03.900Z"
+    },
+    {
+      "id": "7000",
+      "name": "Graduation Party",
+      "targetAmount": 500000,
+      "savedAmount": 500000,
+      "category": "Graduation",
+      "deadline": "2026-07-31",
+      "createdAt": "2025-07-20T15:10:23.754Z"
+    },
+    {
+      "id": "4e6e",
+      "name": "Hospital Bill",
+      "targetAmount": 200000,
+      "savedAmount": 10000,
+      "category": "Need",
+      "deadline": "2025-08-09",
+      "createdAt": "2025-07-20T15:47:26.179Z"
+    },
+    {
+      "id": "4af6",
+      "name": "New Heels",
+      "targetAmount": 3000,
+      "savedAmount": 1000,
+      "category": "Shoes",
+      "deadline": "2025-10-30",
+      "createdAt": "2025-07-25T11:54:57.913Z"
+    },
+    {
+      "id": "dd9c",
+      "name": "Coach Bag",
+      "targetAmount": 25000,
+      "savedAmount": 7000,
+      "category": "Bag",
+      "deadline": "2025-09-30",
+      "createdAt": "2025-07-25T12:26:13.849Z"
+    }
+  ]
+}

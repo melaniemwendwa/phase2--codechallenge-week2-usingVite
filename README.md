@@ -1,12 +1,20 @@
-# React + Vite
+# 🎯 Smart Goal Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app that helps users set and manage personal savings goals. Users can create goals, track their savings progress, make deposits, and update or delete goals. Data is stored and managed using a local JSON server.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Technologies Used
 
-## Expanding the ESLint configuration
+- React (create-react-app)
+- React Router DOM for future routing support
+- JSON Server as a mock backend API
+- JavaScript 
+- CSS for styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Installation Instructions
+
+1. Clone the repository
+2. Ensure you are in the directory of your project using: cd smart-goal-planner
+3. Run npm install
+4. Run npx json-server --watch db.json --port 3001
+5. Run npm run dev

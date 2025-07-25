@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { useState, useEffect } from "react";
+import Overview from "./components/Overview";
+import GoalForm from "./components/GoalForm";
+import DepositForm from "./components/DepositForm";
+import GoalCard from "./components/GoalCard";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [goals, setGoals] = useState([]);
+
+  useEffect(() => {
+    fetch("http://localhost:3001/goals")
+      .then(res => res.json())
+      .then(data => setGoals(data));
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app-container">
+      <h1 className="app-title">Smart Goal Planner</h1>
+      <Overview goals={goals} />
+
+      <div className="forms-row">
+        <GoalForm setGoals={setGoals} goals={goals} />
+        <DepositForm goals={goals} setGoals={setGoals} />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <div className="goals-container">
+        {goals.map(goal => (
+          <GoalCard key={goal.id} goal={goal} setGoals={setGoals} goals={goals} />
+        ))}
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
